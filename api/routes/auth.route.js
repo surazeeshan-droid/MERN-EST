@@ -5,6 +5,6 @@ import { signup } from '../controllers/auth.controller';
 const route = express.Router();
 
 router.post("/signup", signup);
-
+router.post("/signin", signin);
 
 export default route;
