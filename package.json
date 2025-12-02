@@ -3,9 +3,10 @@
     "version": "1.0.0",
     "description": "",
     "main": "index.js",
+    "type": "module",
     "scripts": {
+        "dev": "nodemon api/index.js",
         "start": "node api/index.js",
-        "dev": "echo hello",
         "mongo": "mongod"
     },
     "keywords": [],
@@ -15,9 +16,18 @@
         "bcryptjs": "^3.0.3",
         "dotenv": "^17.2.3",
         "express": "^5.1.0",
+        "firebase": "^12.6.0",
         "jsonwebtoken": "^9.0.2"
     },
     "devDependencies": {
         "nodemon": "^3.1.11"
-    }
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/surazeeshan-droid/MERN-EST.git"
+    },
+    "bugs": {
+        "url": "https://github.com/surazeeshan-droid/MERN-EST/issues"
+    },
+    "homepage": "https://github.com/surazeeshan-droid/MERN-EST#readme"
 }
